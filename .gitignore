@@ -1,2 +1,7 @@
+# Editor / tooling
+.vscode/
 .pre-commit-config.yaml
-.vscode
+
+# Build outputs
+build/
+obj/
