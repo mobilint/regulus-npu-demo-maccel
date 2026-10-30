@@ -1,0 +1,12 @@
+# Normalize line endings for all text files
+* text=auto eol=lf
+
+# Model blobs and sample assets are binary; never diff or merge them
+*.mxq  binary
+*.png  binary
+*.jpg  binary
+*.JPEG binary
+
+# Better hunk headers for C++ sources
+*.cc diff=cpp
+*.h  diff=cpp
